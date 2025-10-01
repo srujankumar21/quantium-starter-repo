@@ -1,0 +1,67 @@
+/* assets/style.css */
+
+body {
+  margin: 0;
+  background: #eef2f7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+}
+
+/* page container */
+.container {
+  max-width: 1000px;
+  margin: 36px auto;
+  padding: 22px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(17, 24, 39, 0.06);
+}
+
+/* header */
+.header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: -0.2px;
+}
+.subtitle {
+  margin: 6px 0 0 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+/* controls area */
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0 8px 0;
+}
+#radio-container {
+  background: #f8fafc;
+  padding: 10px 14px;
+  border-radius: 999px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
+/* makes the radio buttons a bit larger and nicer */
+#region-radio input[type="radio"] {
+  transform: scale(1.15);
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* graph spacing */
+#sales-line-chart {
+  padding: 8px;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 12px;
+  margin-top: 12px;
+}
